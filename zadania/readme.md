@@ -8,7 +8,7 @@
 2. Sklonuj repozytorium na swój komputer. Użyj do tego komendy `git clone adres_repozytorium`
 Adres repozytorium możesz znaleźć na stronie repozytorium po naciśnięciu w guzik "Clone or download".
 3. Rozwiąż zadania i skomituj zmiany do swojego repozytorium. Użyj do tego komend `git add nazwa_pliku`.
-Jeżeli chcesz dodać wszystkie zmienione pliki użyj `git add .` 
+Jeżeli chcesz dodać wszystkie zmienione pliki użyj `git add .`
 Pamiętaj że kropka na końcu jest ważna!
 Następnie skommituj zmiany komendą `git commit -m "nazwa_commita"`
 4. Wypchnij zmiany do swojego repozytorium na GitHubie.  Użyj do tego komendy `git push origin master`
@@ -18,22 +18,22 @@ Następnie skommituj zmiany komendą `git commit -m "nazwa_commita"`
 
 * Pisz czytelny kod - nazwy zmiennych i funkcji powinny informować o ich zastosowaniu.
 * Wszystkie zadania rozwiązuj w pliku app.js
-* Rozdzielaj zadania komentarzami, tak żeby łatwo było odnaleźć się w dokumencie. 
+* Rozdzielaj zadania komentarzami, tak żeby łatwo było odnaleźć się w dokumencie.
 
 ```JavaScript
 // ZADANIE 1
-Tu rozwiązanie zadania 1 
+Tu rozwiązanie zadania 1
 
 // ZADANIE 2
 etc...
 ```
-* Jeśli nie wiesz jak coś zrobić - nie bój się pytać (najpierw google później slack ;) 
+* Jeśli nie wiesz jak coś zrobić - nie bój się pytać (najpierw google później slack ;)
 
 ---------------------------------------------------------------------
 
 ### Zadanie 1
 
-Napisz funkcję o nazwie ```getSqrt(n)```, która przyjmuje jako parametr jedną liczbę. Niech funkcja ta zwraca pierwiastek tej liczby. 
+Napisz funkcję o nazwie ```getSqrt(n)```, która przyjmuje jako parametr jedną liczbę. Niech funkcja ta zwraca pierwiastek tej liczby.
 
 Przykład:
 
@@ -77,11 +77,11 @@ Przykład:
 ```JavaScript
 addPy("thon"); // zwróci "Python"
 addPy("Python); // zwróci "Python"
-``` 
+```
 
 ### Zadanie 5
 
-Napisz funkcję ```removeChar(string, pos)```, która przyjmuje dwa argumenty - string i pozycję w tym stringu. Funkcja ma usunąć znak na pozycji ```pos``` i zwrócić string. 
+Napisz funkcję ```removeChar(string, pos)```, która przyjmuje dwa argumenty - string i pozycję w tym stringu. Funkcja ma usunąć znak na pozycji ```pos``` i zwrócić string.
 
 Przykład:
 ```JavaScript
@@ -90,7 +90,7 @@ removeChar("Koteczek", 3); // zwróci "Kotczek"
 ```
 ### Zadanie 6
 
-Napisz funkcję ```removeDuplicates(string)```, która przyjmuje argument string i usuwa w nim wszystkie powtarzające się znaki. 
+Napisz funkcję ```removeDuplicates(string)```, która przyjmuje argument string i usuwa w nim wszystkie powtarzające się znaki.
 
 Przykład:
 ```JavaScript
@@ -99,9 +99,9 @@ removeDuplicates("Kotttteczczczczek") // zwróci "Koteczek"
 removeDuplicates("Koteczek") // zwróci "Koteczek"
 ```
 
-### Zadanie 7 
+### Zadanie 7
 
-Napisz funkcje ```getNegativeNumbers(array)```, która jako argument przyjmuje tablicę. Tablica może zawierać liczby ujemne. Funkcja **ma zwrócić** nową tablicę wypełnioną tylko ujemnymi liczbami. Jeśli nie ma liczb ujemnych, funkcja powinna zwrócić odpowiednią informację. 
+Napisz funkcje ```getNegativeNumbers(array)```, która jako argument przyjmuje tablicę. Tablica może zawierać liczby ujemne. Funkcja **ma zwrócić** nową tablicę wypełnioną tylko ujemnymi liczbami. Jeśli nie ma liczb ujemnych, funkcja powinna zwrócić odpowiednią informację.
 
 Przykład:
 ```JavaScript
@@ -123,8 +123,8 @@ forEach([2,4,5,6], function(element) {
 ### Zadanie 9
 Napisz funkcję ```map(array, function)```, która zwróci nowa tablicę, ktorej elementy po kolei beda wynikiem wykonania przekazanej funkcji na kolejnych argumentach, np.
 ```JavaScript
-map([1,3,5,7], function(element) { 
-    return element - 1; 
+map([1,3,5,7], function(element) {
+    return element - 1;
 }); 
 // zwroci [0,2,4,6]
 ```
@@ -132,9 +132,9 @@ map([1,3,5,7], function(element) {
 ### Zadanie 10
 Napisz funkcję ```filter(array, function)```, która zwróci nową tablicę, zawierającą kolejne elementy starej tablicy, dla ktorych wywołanie function zwroci wartosc true, np.
 ```JavaScript
-filter([1, 2, “trzy”, 4, “😏”], function(e) { 
-    return (e % 2) == 0; 
-}); 
+filter([1, 2, “trzy”, 4, “😏”], function(e) {
+    return (e % 2) == 0;
+});
 // zwroci [2, 4]
 ```
 

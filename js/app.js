@@ -103,3 +103,11 @@ function filter(array, callback){
 
 
 //zadanie 11
+function oddStrings(array){
+  let newarray = filter(array, function(element){
+    return (element % 2) == 1;
+  });
+  return map(newarray, function(element){
+    return element.toString();
+  });
+}
